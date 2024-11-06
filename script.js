@@ -1,24 +1,29 @@
 const poems = [
   {
-    author: "Cece",
-    poem: "Roses are red \n Violets are blue \n Sunflowers are yellow \n I bet you were expecting something romantic but no -- these are just gardening facts.",
-    image: "sunflower.jpeg",
+    author: 'Cece',
+    poem: 'Roses are red \n Violets are blue \n Sunflowers are yellow \n I bet you were expecting something romantic but no -- these are just gardening facts.',
+    image: 'sunflower.jpeg',
   },
   {
-    author: "Anvit",
-    poem: "Roses are red \n Pizza sauce is too \n I ordered a large \n None of it is for you ",
-    image: "pizza.jpeg",
+    author: 'Anvit',
+    poem: 'Roses are red \n Pizza sauce is too \n I ordered a large \n None of it is for you ',
+    image: 'pizza.jpeg',
   },
   {
-    author: "Ernie",
-    poem: "Roses are red \n Violets are blue \n Jerry Seinfeld is considering \n Making Bee Movie 2",
-    image: "bee.jpeg",
-  },  
+    author: 'Ernie',
+    poem: 'Roses are red \n Violets are blue \n Jerry Seinfeld is considering \n Making Bee Movie 2',
+    image: 'bee.jpeg',
+  },
+  {
+    author: 'Jenny',
+    poem: 'Marigold  are red \n Violets are blue \n Jerry Seinfeld is considering \n Making Bee Movie 2',
+    image: 'marigold.jpeg',
+  },
 ];
 
 let displayPoems = (array) => {
-  let html = "";
-  let poemDiv = document.getElementById("poems");
+  let html = '';
+  let poemDiv = document.getElementById('poems');
 
   poemArray = array.forEach((poem) => {
     html += `
