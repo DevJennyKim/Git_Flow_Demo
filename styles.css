@@ -6,8 +6,7 @@
 
 /* YOUR CODE HERE: Change the background-color property of the <body> tag to a different color of your choice. */
 body {
-  background-color: lightblue;
-  background-color: teal;
+  background-color: purple;
 }
 
 .page-header {
@@ -31,3 +30,5 @@ body {
 .poem__image {
   width: 100%;
 }
+
+

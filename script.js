@@ -20,6 +20,11 @@ const poems = [
     image: "marigold.jpeg",
   },  
   {
+    author: "Renu",
+    poem: "Love and believe in yourself \n Stand tall \n You are strong \n Your are capable \n hello",
+    image: "life.jpg",
+  },  
+  {
     author: 'Ernie',
     poem: 'Roses are red \n Violets are blue \n Jerry Seinfeld is considering \n Making Bee Movie 2',
     image: 'bee.jpeg',
